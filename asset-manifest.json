@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/static/css/main.7dfa6cee.chunk.css",
-    "main.js": "/static/js/main.bfbdb545.chunk.js",
-    "main.js.map": "/static/js/main.bfbdb545.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.87a0356f.js",
-    "runtime-main.js.map": "/static/js/runtime-main.87a0356f.js.map",
+    "main.js": "/static/js/main.91966980.chunk.js",
+    "main.js.map": "/static/js/main.91966980.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a7ae814b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a7ae814b.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.f7f03816.chunk.js": "/static/js/2.f7f03816.chunk.js",
-    "static/js/2.f7f03816.chunk.js.map": "/static/js/2.f7f03816.chunk.js.map",
-    "static/js/3.6ab44955.chunk.js": "/static/js/3.6ab44955.chunk.js",
-    "static/js/3.6ab44955.chunk.js.map": "/static/js/3.6ab44955.chunk.js.map",
+    "static/js/2.54bdda59.chunk.js": "/static/js/2.54bdda59.chunk.js",
+    "static/js/2.54bdda59.chunk.js.map": "/static/js/2.54bdda59.chunk.js.map",
+    "static/js/3.f70f47a6.chunk.js": "/static/js/3.f70f47a6.chunk.js",
+    "static/js/3.f70f47a6.chunk.js.map": "/static/js/3.f70f47a6.chunk.js.map",
     "static/js/4.4eadf816.chunk.js": "/static/js/4.4eadf816.chunk.js",
     "static/js/4.4eadf816.chunk.js.map": "/static/js/4.4eadf816.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.20aa2d7b.chunk.css.map": "/static/css/2.20aa2d7b.chunk.css.map",
     "static/css/main.7dfa6cee.chunk.css.map": "/static/css/main.7dfa6cee.chunk.css.map",
-    "static/js/2.f7f03816.chunk.js.LICENSE.txt": "/static/js/2.f7f03816.chunk.js.LICENSE.txt",
-    "static/js/3.6ab44955.chunk.js.LICENSE.txt": "/static/js/3.6ab44955.chunk.js.LICENSE.txt",
+    "static/js/2.54bdda59.chunk.js.LICENSE.txt": "/static/js/2.54bdda59.chunk.js.LICENSE.txt",
+    "static/js/3.f70f47a6.chunk.js.LICENSE.txt": "/static/js/3.f70f47a6.chunk.js.LICENSE.txt",
     "static/media/Ankur_Resume.3bf3db1c.pdf": "/static/media/Ankur_Resume.3bf3db1c.pdf",
     "static/media/OP.c458bc94.JPG": "/static/media/OP.c458bc94.JPG",
     "static/media/Photographer.f287756d.JPG": "/static/media/Photographer.f287756d.JPG",
@@ -26,14 +26,15 @@
     "static/media/covid.95976edd.jpg": "/static/media/covid.95976edd.jpg",
     "static/media/hate.7b0444b3.jpg": "/static/media/hate.7b0444b3.jpg",
     "static/media/logoK.73818642.png": "/static/media/logoK.73818642.png",
+    "static/media/pops.7eda816b.mp3": "/static/media/pops.7eda816b.mp3",
     "static/media/style.css": "/static/media/pre.6692cbcc.svg",
     "static/media/resilience.e7269478.jpg": "/static/media/resilience.e7269478.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.87a0356f.js",
+    "static/js/runtime-main.a7ae814b.js",
     "static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.f7f03816.chunk.js",
+    "static/js/2.54bdda59.chunk.js",
     "static/css/main.7dfa6cee.chunk.css",
-    "static/js/main.bfbdb545.chunk.js"
+    "static/js/main.91966980.chunk.js"
   ]
 }
