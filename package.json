@@ -1,5 +1,5 @@
 {
-  "homepage": "https://ankurRawat19.github.io/AboutMe",
+  "homepage": "https://ankurRawat19.github.io/",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -18,11 +18,12 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
     "typewriter-effect": "^2.17.0",
+    "use-sound": "^4.0.1",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

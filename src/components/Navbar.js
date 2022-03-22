@@ -7,6 +7,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import logo from "../Assets/logoK.png";
 import Button from "react-bootstrap/Button";
 import { Link } from "react-router-dom";
+import useSound from "use-sound";
+import Audioz from "../Assets/pops.mp3";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -21,7 +23,7 @@ function NavBar() {
   }
 
   window.addEventListener("scroll", scrollHandler);
-
+  const [play] = useSound(Audioz);
   return (
     <Navbar
       expanded={expand}
@@ -31,7 +33,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/">
-          <img src={logo} className="img-fluid logo" alt="brand" />
+          <img onClick={play} src={logo} className="img-fluid logo" alt="brand" />
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -45,12 +47,12 @@ function NavBar() {
         </Navbar.Toggle>
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="ml-auto" defaultActiveKey="#home">
-            <Nav.Item>
+            <Nav.Item onClick={play}>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
                 <i className="fas fa-home"></i> Home
               </Nav.Link>
             </Nav.Item>
-            <Nav.Item>
+            <Nav.Item onClick={play}>
               <Nav.Link
                 as={Link}
                 to="/about"
@@ -59,7 +61,7 @@ function NavBar() {
                 <i className="far fa-user"></i> About
               </Nav.Link>
             </Nav.Item>
-            <Nav.Item>
+            <Nav.Item onClick={play}>
               <Nav.Link
                 as={Link}
                 to="/project"
@@ -68,7 +70,7 @@ function NavBar() {
                 <i className="fab fa-codepen"></i> Projects
               </Nav.Link>
             </Nav.Item>
-            <Nav.Item>
+            <Nav.Item onClick={play}>
               <Nav.Link
                 as={Link}
                 to="/resume"

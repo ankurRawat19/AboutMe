@@ -4,8 +4,13 @@ import myImg from "../../Assets/avatarkaidi.png";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Tilt from "react-parallax-tilt";
+import useSound from "use-sound";
+import Audio from '../../Assets/audio.mp3';
 
 function Home2() {
+
+  const [play,{stop}] = useSound(Audio);
+  const [isHovering, setIsHovering] = React.useState(false);
   return (
     <Container fluid className="home-about-section" id="about">
       <Container>
@@ -43,7 +48,17 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img isHovering={isHovering}
+                  onMouseEnter={()=>{
+                    setIsHovering(true);
+                    play();
+                  }}
+                  onMouseLeave={()=>{
+                    setIsHovering(false);
+                    stop();
+                  }}
+                  src={myImg} className="img-fluid" alt="avatar" />
+
             </Tilt>
           </Col>
         </Row>
